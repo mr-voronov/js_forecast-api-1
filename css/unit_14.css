@@ -1,0 +1,99 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+}
+
+/* reset css end */
+
+/* grid */
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+
+    position: relative;
+
+    font-size: 16px;
+}
+
+/* grid end*/
+
+/* banner forecast */
+
+.banner-forecast {
+    width: 350px;
+    height: 150px;
+
+    position: absolute;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    background-color: #e6e6fa;
+
+    border-left: 10px solid #663399;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+    font-family: Roboto, sans-serif;
+}
+
+.banner-forecast .forecast-city {
+    width: 70%;
+    height: 80px;
+    padding: 10px;
+
+    float: left;
+
+    font-size: 3.5em;
+}
+
+.banner-forecast .forecast-icon {
+    width: 30%;
+    height: 80px;
+
+    float: left;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-forecast .forecast-date {
+    width: 40%;
+    height: 70px;
+
+    float: left;
+
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.banner-forecast .forecast-temperature {
+    width: 40%;
+    height: 70px;
+
+    float: right;
+
+    font-size: 2.5em;
+    text-align: right;
+}
+
+.banner-forecast .forecast-scale {
+    width: 20%;
+    height: 70px;
+
+    float: right;
+
+    font-size: 2.5em;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.banner-forecast .forecast-scale:hover {
+    color: #fff;
+}
+
+/* banner forecast end */
